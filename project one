@@ -1,5 +1,0 @@
-filename=input("input the file name:")
-A=filename.split(".")
-mydict={"py":"python","cpp":"c++","java":"java","c":"c"}
-print ("the extension of the file is : " )
-print (mydict[A[-1]])
