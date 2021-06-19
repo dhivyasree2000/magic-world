@@ -1,0 +1,11 @@
+word= input('Please enter a string ')
+def most_frequent(string):
+    my_dict = dict()
+    for key in string:
+        if key not in my_dict:
+            my_dict[key] = 1
+        else:
+            my_dict[key] += 1
+    return my_dict
+print (most_frequent(word))
+
